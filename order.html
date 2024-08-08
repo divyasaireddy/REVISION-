@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Order details</legend>
+        <form action="./confirm.txt">
+            <pre>
+            <input type="text" placeholder="Name" required> 
+
+            <input type="email" placeholder="email" required>
+
+            <input type="tel" placeholder="Mobile.No" required>
+
+            <input type="number" placeholder="Quantity" required>
+
+            <textarea name="" id="" col="20" row="20" required></textarea>
+
+            </pre>
+    </fieldset>
+
+    <fieldset>
+        <legend>Payment Details</legend>
+        <pre>  
+                <select name="payment" id="payment">
+                <option value="Debit card">Debit card</option>
+                <option value="Credit card">Credit card</option>
+                <option value="Amazon pay">Amazon pay</option>
+                <option value="UPI">UPI</option>
+            </select>
+
+            
+            <input type="submit" value="Place Order">
+        </pre>
+
+    </fieldset>
+
+</form>
+</body>
+</html>
